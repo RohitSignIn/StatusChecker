@@ -53,7 +53,7 @@ const StatusChecker = () => {
 
         setTimeout(() => {
             handleCheck();
-        }, 5000)
+        }, 60000)
 
         const urlsArray = urls.split('\n').filter(url => url.trim() !== '');
         const servicesArray = services.split('\n').filter(service => service.trim() !== '');
